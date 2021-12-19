@@ -1,0 +1,16 @@
+<div>
+    <h1>Latest Transactions</h1>
+
+    <div class="sectionHeadersRow">
+        <label class="sectionItemLength">Date: </label>
+        <label class="sectionItemLength">Account: </label>
+        <label class="sectionItemLength">Amount: </label>
+        <label class="sectionItemLength">Balance: </label>
+    </div>
+    
+    
+    <app-transaction-item
+    *ngFor="let t of transactions"
+    [transaction]="t"
+    ></app-transaction-item>
+</div>

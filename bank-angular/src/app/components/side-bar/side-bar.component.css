@@ -1,0 +1,45 @@
+.sideBarLeft {
+    height: 100%;
+    width: 250px;
+
+  }
+  .sideBarRight {
+    height: 100%;
+    width: 240px;
+    left: calc(100vw - 250px - 17px);
+    
+
+  }
+
+  .sideBar {
+    overflow: hidden;
+    display: inline-block;
+    background: hsl(180, 1%, 32%);
+    color: #fff;
+    border: none;
+    height: 100vh;
+    width: 250px;
+    cursor: pointer;
+    text-decoration: none;
+    
+    
+  }
+
+  .absolute {
+    position: absolute;
+  }
+
+  .relativeLeft {
+    position: relative;
+  }
+  .relativeRight {
+    position: relative;
+    left: calc(100vw - 250px - 79px - 250px - 500px);
+  }
+
+  .testColor {
+    background: hsl(0, 54%, 46%);
+  }
+  .testColor2 {
+    background: rgb(109, 168, 121);
+  }

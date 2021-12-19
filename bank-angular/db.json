@@ -1,0 +1,344 @@
+{
+  "Accounts": [
+    {
+      "id": 1,
+      "cardNum": 1,
+      "pinNum": 1,
+      "chequeings": 2096,
+      "savings": 4670,
+      "transactions": [
+        {
+          "accountType": "Chequeings",
+          "amount": 43,
+          "newBalance": 43,
+          "date": "2021-12-13"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": -4,
+          "newBalance": 39,
+          "date": "2021-12-13"
+        },
+        {
+          "accountType": "Savings",
+          "amount": 54,
+          "newBalance": 54,
+          "date": "2021-12-13"
+        },
+        {
+          "accountType": "Savings",
+          "amount": -8,
+          "newBalance": 46,
+          "date": "2021-12-13"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": 543,
+          "newBalance": 582,
+          "date": "2021-12-14"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": 54,
+          "newBalance": 636,
+          "date": "2021-12-14"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": -34,
+          "newBalance": 602,
+          "date": "2021-12-14"
+        },
+        {
+          "accountType": "Savings",
+          "amount": 432,
+          "newBalance": 478,
+          "date": "2021-12-14"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": 43,
+          "newBalance": 645,
+          "date": "2021-12-14"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": -34,
+          "newBalance": 611,
+          "date": "2021-12-15"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": 43,
+          "newBalance": 654,
+          "date": "2021-12-15"
+        },
+        {
+          "accountType": "Savings",
+          "amount": -32,
+          "newBalance": 446,
+          "date": "2021-12-15"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": 2,
+          "newBalance": 656,
+          "date": "2021-12-15"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": -45,
+          "newBalance": 611,
+          "date": "2021-12-15"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": -43,
+          "newBalance": 568,
+          "date": "2021-12-15"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": 43,
+          "newBalance": 611,
+          "date": "2021-12-15"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": 543,
+          "newBalance": 1154,
+          "date": "2021-12-15"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": 45,
+          "newBalance": 1199,
+          "date": "2021-12-15"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": 34,
+          "newBalance": 1233,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": 43,
+          "newBalance": 1276,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": 43,
+          "newBalance": 1319,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": 534,
+          "newBalance": 1853,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": 542,
+          "newBalance": 2395,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": -54,
+          "newBalance": 2341,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": -245,
+          "newBalance": 2096,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Savings",
+          "amount": 34,
+          "newBalance": 480,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Savings",
+          "amount": 645,
+          "newBalance": 1125,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Savings",
+          "amount": 3545,
+          "newBalance": 4670,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Savings",
+          "amount": -543,
+          "newBalance": 4127,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Savings",
+          "amount": 543,
+          "newBalance": 4670,
+          "date": "2021-12-16"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "cardNum": 54,
+      "pinNum": 5,
+      "chequeings": 0,
+      "savings": 0,
+      "transactions": []
+    },
+    {
+      "id": 244,
+      "cardNum": 244,
+      "pinNum": 4,
+      "chequeings": 0,
+      "savings": 0,
+      "transactions": []
+    },
+    {
+      "id": 25688349,
+      "cardNum": 25688349,
+      "pinNum": 1,
+      "chequeings": 7985,
+      "savings": 5132,
+      "transactions": [
+        {
+          "accountType": "Chequeings",
+          "amount": 544,
+          "newBalance": 544,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": 453,
+          "newBalance": 997,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": 54,
+          "newBalance": 1051,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": -54,
+          "newBalance": 997,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": -64,
+          "newBalance": 933,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": 543,
+          "newBalance": 1476,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": 543,
+          "newBalance": 2019,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": 23,
+          "newBalance": 2042,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": 54,
+          "newBalance": 2096,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": -54,
+          "newBalance": 2042,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Savings",
+          "amount": 54,
+          "newBalance": 54,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Savings",
+          "amount": 6445,
+          "newBalance": 6499,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Savings",
+          "amount": -543,
+          "newBalance": 5956,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Savings",
+          "amount": 453,
+          "newBalance": 6409,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Savings",
+          "amount": -543,
+          "newBalance": 5866,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Savings",
+          "amount": -134,
+          "newBalance": 5732,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Savings",
+          "amount": -654,
+          "newBalance": 5078,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Savings",
+          "amount": 54,
+          "newBalance": 5132,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": 543,
+          "newBalance": 2585,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": -32,
+          "newBalance": 2553,
+          "date": "2021-12-16"
+        },
+        {
+          "accountType": "Chequeings",
+          "amount": 5432,
+          "newBalance": 7985,
+          "date": "2021-12-16"
+        }
+      ]
+    }
+  ]
+}

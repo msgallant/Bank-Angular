@@ -1,0 +1,91 @@
+.header {
+    display: inline-block;
+    background: #012e1b;
+    color: #fff;
+    border: none;
+    height: 100px;
+    width:100vw;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 80px;
+    font-family: inherit;
+    position: relative;
+    padding: 10px;
+  }
+
+  .roof {
+      width: 0;
+      height: 0;
+      border-left: 60px solid transparent;
+      border-right: 60px solid transparent;
+      border-bottom: 20px solid hsl(199, 62%, 51%);
+      top: 20px;
+      left: 500px;
+  }
+
+  .floor {
+    width: 120px;
+    height: 10px;
+    top: 80px;
+    left: 500px;
+  }
+
+  .col-end {
+      width: 25px;
+      height: 7px;
+      border-radius: 70px;
+      
+  }
+  .col-bottum {
+      top: 70px;
+  }
+  .col-top {
+      top: 45px;
+  }
+  .col-base {
+      width: 10px;
+      height: 30px;
+      border-radius: 70px;
+  }
+
+  .col-outer1 {
+      left: 503px;
+  }
+
+  .col-inner1 {
+      left: 510.5px;
+  }
+
+  .col-outer2 {
+    left: 533px;
+}
+
+.col-inner2 {
+    left: 540.5px;
+}
+.col-outer3 {
+    left: 563px;
+}
+
+.col-inner3 {
+    left: 570.5px;
+}
+.col-outer4 {
+    left: 593px;
+}
+
+.col-inner4 {
+    left: 600.5px;
+}
+
+  .symbol-position{
+    position: absolute;
+    
+  }
+
+  .symbol-color {
+    background: hsl(199, 62%, 51%);
+  }
+  .stack-top {
+      z-index: 9;
+  }

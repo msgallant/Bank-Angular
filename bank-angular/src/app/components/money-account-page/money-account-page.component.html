@@ -1,0 +1,30 @@
+<div>
+    {{toggleDersiredMoneyAccount()}}
+</div>
+<div *ngIf="!showTransactionPage">
+    <label>{{ accountType }}</label>
+    <br> <br>
+    <label>Balance: {{ balance }}</label>
+    <br> <br>
+
+    <app-button
+    color="#2ECC71"
+    text="Deposit"
+    (btnClick)="onDeposit()"
+    ></app-button>
+
+    <app-button
+    color="#99A3A4"
+    text="Withdraw"
+    (btnClick)="onWithdraw()"
+    ></app-button>
+
+</div>
+
+<div *ngIf="showTransactionPage">
+    <app-transaction-page
+    accountType={{accountType}}
+    transactionType={{transactionType}}
+    (onCompletedTransaction)="goBackToMenu()"
+    ></app-transaction-page>
+</div>

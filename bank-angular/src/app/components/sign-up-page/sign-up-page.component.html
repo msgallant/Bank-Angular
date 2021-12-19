@@ -1,0 +1,23 @@
+<div class="pageContainer">
+    
+    <div *ngIf="!goToLogInPage">
+        <h2>Register</h2>
+        <app-create-credentials
+        (onCreateCredentials)="createAccount($event)"
+        ></app-create-credentials>
+
+        <a routerLink="/Log-In">
+            Already have an account? Log in here
+        </a>
+
+    </div>
+
+
+    <div *ngIf="goToLogInPage">
+        <label>Account successfully created!</label>
+        <br> <br>
+        <a routerLink="/Log-In">Click here to log in</a>
+    </div>
+
+
+</div>

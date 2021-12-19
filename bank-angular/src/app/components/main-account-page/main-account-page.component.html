@@ -1,0 +1,50 @@
+<div class="pageContainer">
+    <div *ngIf="!showMoneyAcc && !showTransactionHistory">
+        <app-button
+        color="#AED6F1"
+        text="Chequeings"
+        (btnClick)="showChequeings()"
+        ></app-button>
+        
+        <app-button
+        color="#D7BDE2"
+        text="Savings"
+        (btnClick)="showSavings()"
+        ></app-button>
+        
+        <br>
+        
+        <app-button
+        color="#EDBB99"
+        text="Transaction History"
+        (btnClick)="showAccountTransactionHistory()"
+        ></app-button>
+        
+    </div>
+        
+    <div *ngIf="showTransactionHistory"> 
+        <app-transaction-history-page></app-transaction-history-page>
+    </div>
+    
+    <div *ngIf="showMoneyAcc">
+        <app-money-account-page
+        accountType={{accName}}
+        [showTransactionPage]="transactionInProgress"
+        (onTransactionInProgress)="updateCloseButton($event)"
+        ></app-money-account-page>
+    </div>
+    
+    
+    <div class="rightCenter">
+        <br>
+    
+        <app-button 
+        id="close"
+        color="#2C3E50"
+        text="{{(showMoneyAcc || showTransactionHistory) ? 'Go Back' : 'Log Out'}}"
+        (btnClick)="close()"
+        ></app-button>
+    
+    </div>
+    
+</div>

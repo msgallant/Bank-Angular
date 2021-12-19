@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+
+.container {
+    display:inline-block ;
+    max-width: 500px;
+    margin: 30px auto;
+    overflow: auto;
+    border: 1px solid rgb(56, 53, 4);
+    padding: 30px;
+    border-radius: 5px;
+    position: relative;
+    left:calc((100vw - 500px)/2 - 265px);
+
+    
+  }
+
+  .pageContainer {
+    display: block;
+    text-align: center;
+    margin: auto;
+    border: none;
+    overflow: auto;
+  }
+
+  .btn {
+    display: inline-block;
+    background: rgb(66, 65, 65);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .block {
+    display: block;
+    margin: auto;
+  }
+
+  .rightCenter {
+    display: block;
+    text-align: right;
+  }
+
+  .sectionHeadersRow {
+    display: block;
+    font-size: 20px;
+  }
+
+  .sectionItemLength {
+    display: inline-block;
+    width: 115px;
+    text-align: left;
+  }
+

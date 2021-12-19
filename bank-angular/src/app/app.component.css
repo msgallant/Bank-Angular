@@ -1,0 +1,13 @@
+.programContainer {
+    overflow: hidden;
+}
+
+.main {
+    width: 50%;
+    margin-bottom: 60vh;
+    
+}
+
+.sideBar {
+    width: 25%;
+}
