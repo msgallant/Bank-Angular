@@ -2,10 +2,10 @@ Functionality Documentation
 
 Routes
 
-The program has 4 different routes: ‘ ’ which redirects to ‘Log-In’
-‘Log-In’ which goes to LogInPageComponent
-‘Register’ which goes to SignUpPageComponent
-‘Main-Account-Page’ which goes to MainAccountPageComponent
+The program has 4 different routes: ‘ ’ which redirects to ‘Log-In’,
+‘Log-In’ which goes to LogInPageComponent,
+‘Register’ which goes to SignUpPageComponent,
+‘Main-Account-Page’ which goes to MainAccountPageComponent.
 
 Interfaces
 
