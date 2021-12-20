@@ -14,18 +14,14 @@ export class UiService {
     const errorMsg = '{"error":"No such object exists in local storage"}'
     if (!(storageService.getTransactionInProgress() as localStorageError).error)
     {
-      console.log("stringify: " + JSON.stringify(storageService.getTransactionInProgress()));
       const b: boolean = storageService.getTransactionInProgress();
       this.transactionInProgress = b;
-      console.log("found in storage, b is: " + b);
       this.setTransactionInProgress(b);
     }
-    console.log("transaction in progress? " + this.transactionInProgress);
   }
 
   setTransactionInProgress(inProgress: boolean)
   {
-    console.log("setting transact in prog to: " + inProgress);
     this.transactionInProgress = inProgress;
     this.subject.next(this.transactionInProgress);
     this.storageService.storeTransactionInProgress(this.transactionInProgress);
@@ -38,7 +34,6 @@ export class UiService {
   }
   getTransactionInProgress(): boolean
   {
-    console.log("UI service sending progress as: " + this.transactionInProgress);
     return this.transactionInProgress;
   }
 }

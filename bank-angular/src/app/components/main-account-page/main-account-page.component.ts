@@ -23,7 +23,7 @@ export class MainAccountPageComponent implements OnInit {
   //if they are on moneyAccountPage, it should bring them to this page
   transactionInProgress!: boolean;
 
-  constructor(private accountService:AccountService,
+  constructor(private accountService: AccountService,
     private router:Router, private uiService: UiService,
     private storageService: StorageService) 
     { 
@@ -31,22 +31,17 @@ export class MainAccountPageComponent implements OnInit {
       {
         const b: boolean = this.storageService.getShowMoneyAcc();
         this.showMoneyAcc = b;
-        console.log("main acc show money b is: --" + b);
       }
       if (!(storageService.getShowTransactionHistory() as localStorageError).error)
       {
         const b: boolean = this.storageService.getShowTransactionHistory();
         this.showTransactionHistory = b;
       }
-      console.log("main acc on init show money acc result: " + this.showMoneyAcc);
-      console.log("MAIN acc getting trans in progress observer");
       //subscribe will give back the true or false value
       this.subscription = this.uiService
       .getTransactionInProgressObserver()
       .subscribe(
         (value) => (this.transactionInProgress = value));
-
-        console.log("main acc trans in progress result: " + this.transactionInProgress);
     }
 
   ngOnInit(): void {

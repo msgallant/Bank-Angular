@@ -572,7 +572,6 @@ export class AccountService {
 
   getAccounts(): Observable&lt;Account[]&gt;
   {
-    console.log(this.http.get&lt;Account[]&gt;(this.apiUrl));
     return this.http.get&lt;Account[]&gt;(this.apiUrl);
   }
 

@@ -878,7 +878,6 @@ export class MoneyAccountPageComponent implements OnInit {
       .getTransactionInProgressObserver()
       .subscribe(
         (value) &#x3D;&gt; (this.showTransactionPage &#x3D; value));
-        console.log(&quot;money acc show transact page: &quot; + this.showTransactionPage);
     }
 
   ngOnInit(): void {
@@ -888,7 +887,6 @@ export class MoneyAccountPageComponent implements OnInit {
 
   toggleDersiredMoneyAccount()
   {
-    console.log(&quot;LOGIC: finding...&quot;);
     if (this.accountType &#x3D;&#x3D;&#x3D; &quot;Chequeings&quot;)
     {
       this.toggleChequeings();
@@ -900,12 +898,10 @@ export class MoneyAccountPageComponent implements OnInit {
   }
   toggleChequeings()
   {
-    console.log(&quot;chequeings&quot;);
     this.balance &#x3D; this.acc.chequeings;
   }
   toggleSavings()
   {
-    console.log(&quot;savings&quot;);
     this.balance &#x3D; this.acc.savings;
   }
 

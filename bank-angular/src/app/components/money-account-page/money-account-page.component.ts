@@ -37,7 +37,6 @@ export class MoneyAccountPageComponent implements OnInit {
       .getTransactionInProgressObserver()
       .subscribe(
         (value) => (this.showTransactionPage = value));
-        console.log("money acc show transact page: " + this.showTransactionPage);
     }
 
   ngOnInit(): void {
@@ -47,7 +46,6 @@ export class MoneyAccountPageComponent implements OnInit {
 
   toggleDersiredMoneyAccount()
   {
-    console.log("LOGIC: finding...");
     if (this.accountType === "Chequeings")
     {
       this.toggleChequeings();
@@ -59,12 +57,10 @@ export class MoneyAccountPageComponent implements OnInit {
   }
   toggleChequeings()
   {
-    console.log("chequeings");
     this.balance = this.acc.chequeings;
   }
   toggleSavings()
   {
-    console.log("savings");
     this.balance = this.acc.savings;
   }
 

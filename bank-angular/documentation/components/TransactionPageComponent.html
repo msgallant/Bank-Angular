@@ -891,7 +891,6 @@ export class TransactionPageComponent implements OnInit {
       this.newBalance &#x3D; this.acc.chequeings + this.money;
       if (this.isValidTransaction(this.newBalance))
       {
-        console.log(&quot;valid cheq transaction&quot;);
         this.acc.chequeings &#x3D; this.newBalance;
         return true;
       }
@@ -913,7 +912,6 @@ export class TransactionPageComponent implements OnInit {
   //of it when deciding how much to either deposit or withdraw
   getCurrentBalanceOfAcc(): number
   {
-    console.log(&quot;transaction type is &quot; + this.transactionType);
     if (this.accountType &#x3D;&#x3D; &quot;Savings&quot;)
     {
       return this.acc.savings;

@@ -896,22 +896,19 @@ export class MainAccountPageComponent implements OnInit {
       {
         const b: boolean &#x3D; this.storageService.getShowMoneyAcc();
         this.showMoneyAcc &#x3D; b;
-        console.log(&quot;main acc show money b is: --&quot; + b);
       }
       if (!(storageService.getShowTransactionHistory() as localStorageError).error)
       {
         const b: boolean &#x3D; this.storageService.getShowTransactionHistory();
         this.showTransactionHistory &#x3D; b;
       }
-      console.log(&quot;main acc on init show money acc result: &quot; + this.showMoneyAcc);
-      console.log(&quot;MAIN acc getting trans in progress observer&quot;);
+
       //subscribe will give back the true or false value
       this.subscription &#x3D; this.uiService
       .getTransactionInProgressObserver()
       .subscribe(
         (value) &#x3D;&gt; (this.transactionInProgress &#x3D; value));
 
-        console.log(&quot;main acc trans in progress result: &quot; + this.transactionInProgress);
     }
 
   ngOnInit(): void {

@@ -40,8 +40,7 @@ export class LogInPageComponent implements OnInit {
   authenticateCredentials(credentials: Credentials)
   {
     const acc: Account =  this.getAccount(credentials);
-    //need to actualy authenticate credentials
-    console.log("implement checking acc here in log-in-page");
+
     if (acc != null)
     {
       if (acc.pinNum == credentials.pinNum) //successful log in
