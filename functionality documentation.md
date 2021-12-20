@@ -1,12 +1,16 @@
 Functionality Documentation
+
 Routes
+
 The program has 4 different routes: ‘ ’ which redirects to ‘Log-In’
 ‘Log-In’ which goes to LogInPageComponent
 ‘Register’ which goes to SignUpPageComponent
 ‘Main-Account-Page’ which goes to MainAccountPageComponent
 
 Interfaces
+
 Account
+
 Account {
 id: number;
 cardNum:number;
@@ -15,18 +19,25 @@ savings:number;
 chequeings:number;
 transactions: Arrary<Transaction>
 }
+  
 Transaction
+  
 Transaction {
 date: string;
 accountType: string;
 amount: number;
 balance: number;
 }
+  
 Credentials
+  
 Credential {
 cardNum:number;
-pinNum: number;}
+pinNum: number;
+}
+  
 LocalStorageError
+  
 LocalStorageError {
 error: string;
 }
